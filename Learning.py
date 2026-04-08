@@ -1,9 +1,7 @@
-name = input("Enter your name: ")
-age = int(input("Enter your age: "))
-print(f"Hello {name}!")
-if age < 13:
-    print("You are a child")
-elif age < 18:
-    print("You are a teen")
+import random
+number = random.randint(1, 10)
+guess = int(input("Guess a number between 1 and 10: "))
+if guess == number:
+    print("OMG you got it 😭🔥")
 else:
-    print("You are an adult")
+    print("Nope 💀 the number was", number)
