@@ -2,6 +2,6 @@ import random
 number = random.randint(1, 10)
 guess = int(input("Guess a number between 1 and 10: "))
 if guess == number:
-    print("OMG you got it 😭🔥")
+    print("Good Job You Guessed it")
 else:
     print("Nope 💀 the number was", number)
