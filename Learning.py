@@ -1,7 +1,7 @@
-import random
-number = random.randint(1, 10)
-guess = int(input("Guess a number between 1 and 10: "))
-if guess == number:
-    print("Good Job You Guessed it")
+password = input("Enter a password: ")
+if len(password) < 5:
+    print("Weak password 💀")
+elif len(password) < 8:
+    print("Okay password ")
 else:
-    print("Nope 💀 the number was", number)
+    print("Strong password ")
